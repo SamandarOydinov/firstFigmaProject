@@ -1,0 +1,84 @@
+@font-face {
+    font-family: unica-one;
+    src: url("../fonts/UnicaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: yeseva-one;
+    src: url("../fonts/YesevaOne-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    width: 1440px;
+    height: 1555px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1053px;
+}
+
+.top{
+    padding: 60px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about1{
+    width: 500px;
+    height: 181px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.about2{
+    width: 500px;
+    height: 181px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title p{
+    font-family: unica-one;
+}
+
+hr{
+    width: 120px;
+    height: 1px;
+}
+
+h2{
+    font-family: yeseva-one;
+}
+
+.last{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 60px 120px;
+    gap: 40px;
+}
+
+.last div div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.last div{
+    padding-bottom: 10px;
+}
