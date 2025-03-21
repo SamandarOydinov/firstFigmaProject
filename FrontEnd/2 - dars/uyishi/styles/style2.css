@@ -8,7 +8,11 @@
     src: url("../fonts/YesevaOne-Regular.ttf");
 }
 
-* {
+*{
+    box-sizing: border-box;
+}
+
+body{
     margin: 0;
     padding: 0;
 }
